@@ -16,6 +16,12 @@ namespace AccountingPoint.TestApp.Web.core_2.Controllers
             _applicationService = applicationService;
         }
 
+
+        /// <summary>
+        /// Запрос к Backend
+        /// </summary>
+        /// <param name="model"> Идентификатор нажатой кнопки и количестов секунд для Thread.Sleep</param>
+        /// <returns>Guid</returns>
         [HttpGet]
         public Guid Get([FromQuery] RequestModel model)
         {

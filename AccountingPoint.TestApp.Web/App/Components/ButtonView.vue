@@ -19,6 +19,7 @@
 <script>
 import Service from "../Services/service.js";
 
+/**Компонет отображения View для определённой кнопки */
 export default {
   props: {
     button: {
@@ -35,12 +36,17 @@ export default {
   },
 
   created: function () {
+    debugger;
     this.getData();
   },
 
   methods: {
+    /**
+     *@description Обращение к сервису для запроса к backend'у
+     */
     getData: function () {
       this.loading = true;
+      debugger;
       this.service
         .getAll(this.button.id, this.button.delaySeconds)
         .then((r) => {

@@ -18,7 +18,7 @@
 
 <script>
 import Service from "../Services/service.js";
-
+/**Компонет отображения View для определённой кнопки */
 export default {
   props: {
     button: {
@@ -39,6 +39,9 @@ export default {
   },
 
   methods: {
+    /**
+     *@description Обращение к сервису для запроса к backend'у
+     */
     getData: function () {
       this.loading = true;
       this.service

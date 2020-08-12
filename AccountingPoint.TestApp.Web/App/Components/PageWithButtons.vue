@@ -25,6 +25,7 @@
 </template>
 
 <script>
+/**Страница для отображения кнопок и View для каждой из кнопок */
 export default {
   props: {
     buttonsCount: {
@@ -47,17 +48,35 @@ export default {
   },
 
   methods: {
+    /**
+     *@description Проверка: нажималась ли кнопка ранее
+     *@param {Object} button Объект кнопки
+     */
     hasBeenClicked(button) {
       const clicked = this.clickedButtons.find((b) => b.id === button.id);
       return clicked;
     },
+
+    /**
+     *@description Проверка: является ли кнопка текущей нажатой
+     *@param {Object} button Объект кнопки
+     */
     isCurrentButton(button) {
       return this.currentButton.id === button.id;
     },
+
+    /**
+     *@description Обработчик нажатия на кнопку
+     *@param {Object} button Объект кнопки
+     */
     onClick(button) {
       this.currentButton = button;
       this.clickedButtons.push(button);
     },
+
+    /**
+     *@description Заролняет массив с кнопками в зависимости от переданного buttonsCount
+     */
     fillButtons: function () {
       for (let i = 1; i <= this.buttonsCount; i++) {
         const btn = {
@@ -70,7 +89,10 @@ export default {
         this.buttons.push(btn);
       }
     },
-
+    /**
+     *@description Возвращает случайное значение в диапазоне [0..max]
+     *@param {Number} max Максимальное значение
+     */
     getRandomInt: function (max) {
       return Math.floor(Math.random() * Math.floor(max));
     },

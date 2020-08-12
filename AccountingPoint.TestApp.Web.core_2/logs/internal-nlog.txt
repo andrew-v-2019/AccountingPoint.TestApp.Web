@@ -38,3 +38,23 @@
 2020-08-12 19:42:58.6831 Info Adding target FileTarget(Name=allfile)
 2020-08-12 19:42:58.7085 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'ownFile-web' not found for logging rule: *.
 2020-08-12 19:42:58.7892 Info Validating config: TargetNames=allfile, ConfigItems=22, FilePath=C:\git\AccountingPoint.TestApp.Web\AccountingPoint.TestApp.Web.core_2\bin\Debug\netcoreapp2.2\nlog.config
+2020-08-12 19:58:17.0029 Info Message Template Auto Format enabled
+2020-08-12 19:58:17.0388 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 19:58:17.2252 Info Adding target FileTarget(Name=allfile)
+2020-08-12 19:58:17.2543 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'ownFile-web' not found for logging rule: *.
+2020-08-12 19:58:17.3348 Info Validating config: TargetNames=allfile, ConfigItems=22, FilePath=C:\git\AccountingPoint.TestApp.Web\AccountingPoint.TestApp.Web.core_2\bin\Debug\netcoreapp2.2\nlog.config
+2020-08-12 20:01:32.1241 Info Message Template Auto Format enabled
+2020-08-12 20:01:32.1567 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 20:01:32.3531 Info Adding target FileTarget(Name=allfile)
+2020-08-12 20:01:32.3870 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'ownFile-web' not found for logging rule: *.
+2020-08-12 20:01:32.5061 Info Validating config: TargetNames=allfile, ConfigItems=22, FilePath=C:\git\AccountingPoint.TestApp.Web\AccountingPoint.TestApp.Web.core_2\bin\Debug\netcoreapp2.2\nlog.config
+2020-08-12 20:02:51.0818 Info Message Template Auto Format enabled
+2020-08-12 20:02:51.1113 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 20:02:51.2931 Info Adding target FileTarget(Name=allfile)
+2020-08-12 20:02:51.3211 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'ownFile-web' not found for logging rule: *.
+2020-08-12 20:02:51.3901 Info Validating config: TargetNames=allfile, ConfigItems=22, FilePath=C:\git\AccountingPoint.TestApp.Web\AccountingPoint.TestApp.Web.core_2\bin\Debug\netcoreapp2.2\nlog.config
+2020-08-12 20:13:20.1452 Info Message Template Auto Format enabled
+2020-08-12 20:13:20.1698 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 20:13:20.3192 Info Adding target FileTarget(Name=allfile)
+2020-08-12 20:13:20.3473 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'ownFile-web' not found for logging rule: *.
+2020-08-12 20:13:20.4181 Info Validating config: TargetNames=allfile, ConfigItems=22, FilePath=C:\git\AccountingPoint.TestApp.Web\AccountingPoint.TestApp.Web.core_2\bin\Debug\netcoreapp2.2\nlog.config

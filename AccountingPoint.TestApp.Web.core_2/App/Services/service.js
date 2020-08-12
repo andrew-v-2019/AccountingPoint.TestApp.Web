@@ -1,10 +1,10 @@
 import Axios from 'axios';
 
-const RESOURCE_NAME = '/api/data';
+const api = '/api/data';
 
 export default {
     getAll(buttonId, delay) {
-        return Axios.get(RESOURCE_NAME, {
+        return Axios.get(api, {
             params: {
                 ButtonId: buttonId,
                 SecondsDelay: delay

@@ -34,3 +34,4 @@ packages/
 /AccountingPoint.TestApp.Web/node_modules/
 /AccountingPoint.TestApp.Web.core_2/node_modules/
 /AccountingPoint.TestApp.Web.core_2/logs/
+/AccountingPoint.TestApp.Web.core_2/logs

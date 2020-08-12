@@ -14,12 +14,12 @@ namespace AccountingPoint.TestApp.Web.core_2
             var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
             try
             {
-                logger.Debug("init main");
+                logger.Debug("START LOGGING");
                 CreateWebHostBuilder(args).Build().Run();
             }
             catch (Exception ex)
             {
-                logger.Error(ex, "Stopped program because of exception");
+                logger.Error(ex, "EXCEPTION");
                 throw;
             }
             finally

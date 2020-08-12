@@ -21,7 +21,7 @@ namespace AccountingPoint.TestApp.Web.core_2
             var logger = _loggerFactory.CreateLogger<LoggerMiddleware>();
             using (logger.BeginScope(this))
             {
-                logger.LogInformation("Begin request");
+                logger.LogInformation("BEGIN REQUEST");
 
                 if (context.Request.Query.ContainsKey("ButtonId"))
                 {
@@ -31,7 +31,7 @@ namespace AccountingPoint.TestApp.Web.core_2
 
                 }
                 await _next.Invoke(context);
-                logger.LogInformation("End request");
+                logger.LogInformation("END REQUEST");
             }
         }
     }

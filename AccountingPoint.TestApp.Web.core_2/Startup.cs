@@ -33,7 +33,7 @@ namespace AccountingPoint.TestApp.Web.core_2
                 app.UseDeveloperExceptionPage();
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
-                    HotModuleReplacement = true
+                    HotModuleReplacement = false
                 });
             }
             else

@@ -1,10 +1,7 @@
 ﻿<template>
-    <page-with-buttons
-         :buttons-count="3"/>
+  <page-with-buttons :buttons-count="5" />
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
